@@ -1,0 +1,22 @@
+baidu-hi2WPforSAE - Readme
+=============================
+本程序主要功能是将百度Hi博客内容导出生成适用于WordPress的SQL文件，支持新浪SAE本地保存图片
+
+程序应在PHP环境CLI模式下运行，PHP应支持curl()函数
+1.配置baiduhi2wp.php文件
+2.Linux下修改SQL文件生成路径可读写权限
+3.命令行下执行：# php.exe $path/baiduhi2wp.php
+4.执行SQL文件导入数据到WordPress
+
+
+update
+---------
+2011.12.29
+完成初稿,实现本地化图片到SAE服务器，转移博客内容到WordPress.
+
+---
+author: Clear
+mail: jiangchunyi001@gmail.com
+
+29 Dec 2011
+(Last updated: 29 Dec 2011)
